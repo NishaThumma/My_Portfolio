@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/602f2052692cf988e4c783b6_601dce183e0010a314b36a0a_how-to-make-an-online-portfolio.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+header {
+    background-color:transparent;/*Semi-transparent background  */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.profile-image {
+    float: right; /* Adjust positioning */
+    margin-left: 20px; /* Space between image and text */
+}
+
+.profile-image img {
+    max-width: 150px; /* Set a max width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: gold; /* Gold background */
+    color: black; /* Black text color for contrast */
+    box-shadow: 0 15px 25px black; /* Box-shadow effect */
+    border-radius: 0 15px 25px;
+}
+
+h1 {
+    margin: 0;
+    color: #ffcc00; /* Gold color for the main heading */
+}
+
+h2 {
+    color: #ffcc00; /* Gold color for section headings */
+}
+.contact-image {
+    float: right; /* Adjust positioning */
+    margin-left: 20px; /* Space between image and text */
+}
+
+.contact-image img {
+    max-width: 150px; /* Set a max width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+main {
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+main:hover {
+    transform: scale(1.02); /* Slightly enlarge the section on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add a shadow effect on hover */
+    background-color: rgba(255, 255, 0, 0.8); /* Slightly yellow background on hover */
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    /* padding: 15px; */
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+/* Hover effect for section */
+section:hover {
+    transform: scale(1.02); /* Slightly enlarge the section on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add a deeper shadow effect */
+    background-color: rgba(255, 223, 186, 0.9); /* Light peach background color on hover */
+}
+
+.project {
+    /* border: 1px solid #ccc;
+     background-color: #f9f9f9; */
+
+
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.covid-dashboard {
+    background-color: rgb(255, 0, 187); /* Custom color */
+    color: black; /* Suitable text color */
+}
+
+.info-hiding {
+    background-color: rgb(38, 255, 0); /* Custom color */
+    color: black; /* Suitable text color */
+}
+
+.encrypted-data {
+    background-color: rgb(255, 0, 0); /* Custom color */
+    color: black; /* Suitable text color */
+}
+
+.covid-dashboard:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5); /* Light blue shadow */
+    background-color: #ffcc00; /* Darker gold for hover */
+}
+
+.info-hiding:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(40, 167, 69, 0.5); /* Light green shadow */
+    background-color: #ffcc00; /* Darker gold for hover */
+}
+
+.encrypted-data:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(220, 53, 69, 0.5); /* Light red shadow */
+    background-color: #ffcc00; /* Darker gold for hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: transparent;  /* Semi-transparent background */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

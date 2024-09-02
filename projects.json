@@ -1,0 +1,41 @@
+{
+    "projects": [
+      {
+        "id": "covid-dashboard",
+        "title": "COVID-19 Dashboard",
+        "description": "This project involved creating an interactive dashboard to visualize the spread and impact of COVID-19 using Tableau and CSV files. The dashboard provides users with a comprehensive view of the pandemic's trajectory through various charts, graphs, and data points, offering insights into daily cases, recoveries, and fatalities on both global and regional scales.",
+        "technologies": ["Tableau", "CSV", "JavaScript"],
+        "features": [
+          "Interactive charts and graphs that allow users to drill down into specific metrics.",
+          "Real-time data updates to ensure that users have the most current information available.",
+          "Data filters for specific regions and timeframes, enabling targeted analysis and comparison of trends."
+        ],
+        "outcome": "Enhanced understanding of COVID-19 trends and patterns, allowing for informed decision-making. The project not only demonstrated my ability to work with complex datasets but also underscored the importance of data visualization in public health."
+      },
+      {
+        "id": "info-hiding",
+        "title": "Coverless Information Hiding Using Web Text",
+        "description": "In this project, I explored a novel method of coverless information hiding using web text as a medium. This innovative approach focuses on embedding hidden messages within natural language text, eliminating the need for traditional carriers such as images or audio files. The project highlights the potential of natural language processing (NLP) in secure communications.",
+        "technologies": ["Python", "Natural Language Processing"],
+        "features": [
+          "Encoding and decoding of hidden messages, ensuring secure communication.",
+          "Seamless integration into natural text, making the hidden information undetectable to unintended recipients.",
+          "Robustness against detection methods, ensuring the reliability of the communication method in sensitive scenarios."
+        ],
+        "outcome": "Developed a unique approach for covert communication, enhancing privacy in information sharing. This project deepened my understanding of information security and the applications of NLP in creating secure communication frameworks."
+      },
+      {
+        "id": "encrypted-data",
+        "title": "Encrypted Data Management with Deduplication in Cloud Computing",
+        "description": "This project addresses the challenges of managing encrypted data with deduplication in cloud storage. The solution involves implementing secure methods for storing and retrieving encrypted files while maintaining data deduplication to optimize storage costs. The project was driven by the growing concerns over data privacy and security in cloud environments.",
+        "technologies": ["Python", "Cloud Storage", "Encryption Algorithms"],
+        "features": [
+          "Secure file storage and retrieval, safeguarding sensitive information against unauthorized access.",
+          "Data deduplication techniques to eliminate redundant copies of data, thereby reducing storage costs.",
+          "Implementation of robust encryption algorithms to ensure data confidentiality and integrity during storage and retrieval."
+        ],
+        "outcome": "Improved data security and efficiency in cloud environments, reducing costs associated with storage. This project not only honed my technical skills in cloud computing and data security but also highlighted the importance of data protection in an increasingly digital world."
+      }
+    ]
+  }
+  
