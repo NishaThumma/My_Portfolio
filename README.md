@@ -10,7 +10,9 @@ About My Projects: -
 1. **COVID-19 Dashboard**
 
 >>Technologies: Tableau, CSV, JavaScript
->>Description: An interactive dashboard created to visualize the spread and impact of COVID-19. This project includes various charts, graphs, and data points to provide insights into daily cases, recoveries, and fatalities globally and regionally.
+>>Description: An interactive dashboard created to visualize the spread and impact of COVID-19.
+>>This project includes various charts, graphs, and data points to provide insights into daily cases, recoveries, and fatalities globally and regionally.
+
 Key Features:
 >Interactive charts and graphs
 >Real-time data updates
